@@ -13,6 +13,7 @@ namespace pipelines_dotnet_core
 {
     public class Program
     {
+        // This is a dummy comment to trigger another pipeline build
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
